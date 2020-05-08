@@ -10,6 +10,8 @@
 !libs
 !libs/**
 
+!resultImages
+!resultImages/**
 
 !*.txt
 !*.md
