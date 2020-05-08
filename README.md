@@ -23,7 +23,7 @@
 Using target frame = 54, reference frame = 5. 
 Macroblock = 16, p = 8.
 
-<Images>
+![](resultImages/gray_Walk5_Walk54.PNG)
 
 ```
 
