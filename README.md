@@ -22,10 +22,18 @@
 ```
 Using target frame = 54, reference frame = 5. 
 Macroblock = 16, p = 8.
+```
 
+```
+Walk 5 & Walk 54 gray:
+```
 ![](resultImages/gray_Walk5_Walk54.PNG)
 
 ```
+Error block. (Where there is motion vectors):
+```
+![](resultImages/ErrorWalk54.PNG)
+
 
 ###### 2. |NOTE: Not working correctly| Similar to 1) but instead will use Half pixel for better accuracy.
 
@@ -36,12 +44,19 @@ Using target frame = 70, target frame = 5.(Manually selected, frame 1 - 5 there 
 If you choose to use different images then be sure to choose one where there is little visual noise.
 
 Macroblock = 16, p = 2.
-
-
-
-<Images>
+```
 
 ```
+Walk 5 & Walk 70(red box of blocks where motion vector is not [0,0]):
+```
+![](resultImages/Walk5_RedWalk70.PNG)
+
+
+```
+New Frame after object has been removed and replaced with closest matching tiles: 
+```
+![](resultImages/replacedObjectWalk70.PNG)
+
 
 
 ``` bash
